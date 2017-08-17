@@ -1,0 +1,128 @@
+body {
+	background-image: url(../images/cork-wallet.png);
+	background-repeat: repeat;
+	font-size: 16px;	
+}
+
+li:first-child {
+    border-right: none;
+}
+
+li a {
+    color: #d3d3d3;
+    text-align: center;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+/* Move link down on hover */
+li a:hover {
+    padding-top: 2px;
+}
+
+.navbar-brand {
+	text-align: center;
+	background-color: #4fa9a4;
+	color: white;
+	font-size: 2rem;
+}
+
+.col-sm-6#main-box {
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+
+h2 {
+	height: 25px;
+	width: 176px;
+	font-size: 2rem;
+	color: #4fa9a4;
+}
+
+#myFace {
+	height: 31%;
+	width: 31%;
+	float: left;
+	margin: 0 20px 0 5%;
+	padding: 0 0 5% 2.5%;
+}
+
+.about {
+	white-space: 2%;
+	line-height: 130%;
+	float: left;
+}
+
+.portfolio {
+	position: relative;
+	margin: 5%
+}
+
+.imgDesc {
+	position: absolute;
+	top: 125px;
+	left: .1px;
+	z-index: 1;
+	display: inline-block;
+	height: 25px;
+	width: 225px;
+	background-color: #4fa9a4;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+hr {
+	width: 85%;
+	height: 1.5px;
+	background-color: #d3d3de;
+	margin-bottom: 5%;
+}
+
+.panel-title {
+	font-size: 2rem;
+	color: #4fa9a4;
+
+}
+
+.connect {
+	height: 50px;
+	width: 50px;
+	padding: 2.5% 0 2.5% 5%;
+}
+
+/* Causes social media icons to move up and down */
+
+.panel-body img {
+    float: left;
+    -webkit-transition: margin 0.2s ease-out;
+    -moz-transition: margin 0.2s ease-out;
+    -o-transition: margin 0.2s ease-out;
+}
+ 
+.panel-body img:hover {
+    margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	position: fixed;
+    bottom: 0;
+    height: 30px;
+    padding: 30px 0 20px 0;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 10px solid #4fa9a4;
+    z-index: 2;
+}
+
+
+
+
+
+
+
